@@ -5,6 +5,34 @@
 
 }
 
+.nav_container{
+
+    display:flex;
+    height: 5vh;
+
+}
+
+
+.nav_button{
+
+    margin-left:auto;
+
+}
+
+.toggled_Links_Container{
+
+    display: block;
+    background-color: grey;
+        
+}
+
+.Links_Container{
+
+    display: none;
+    background-color: grey;
+
+}
+
 body{
 
     background-color: black;
@@ -72,3 +100,37 @@ dd{
     flex: 1 1 auto;
 
 }
+
+@media (min-width: 600px) {
+
+
+
+    .nav_button{
+
+        display:none;
+
+    }
+
+    .Header_Container{
+
+        display:flex;
+
+    }
+
+    .Links_Container{
+
+        margin-left: 2vw;
+        display: block;
+        background-color: grey;
+    
+    }
+
+    .toggled_Links_Container{
+
+        margin-left: 2vw;
+        display: block;
+        background-color: grey;
+            
+    }
+
+  }
