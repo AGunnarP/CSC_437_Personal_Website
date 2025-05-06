@@ -1,0 +1,74 @@
+
+*{
+
+    margin: 0px;
+
+}
+
+body{
+
+    background-color: black;
+    color:#F0E728;
+    font-family: 'Courier Prime', monospace;
+
+}
+
+p{
+    margin-top:1rem;
+}
+
+a{
+
+    color:green;
+
+}
+
+li{
+
+    color:red;
+
+}
+
+dt{
+
+    color:orange;
+    margin-left:1rem;
+
+}
+
+dd{
+
+    color:red;
+    margin-left:2rem;
+
+}
+
+
+#flexbox{
+
+    display:flex;
+
+}
+
+.flex_container{
+
+    flex-basis:50%;
+    margin-right:2rem;
+
+}
+
+#image{
+
+    flex: 0 0 auto;
+    height: 80vh;
+    width: auto;
+    flex-shrink: 2;
+    
+
+}
+
+#content{
+
+    flex: 1 1 auto;
+
+}
